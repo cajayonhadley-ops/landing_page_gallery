@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hobbies</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(to right,#1e3c72,#2a5298);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+width:90%;
+max-width:900px;
+background:white;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+header{
+display:flex;
+justify-content:flex-end;
+padding:25px 50px;
+background:#f5f7fb;
+}
+
+header a{
+margin-left:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.content{
+padding:40px;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.grid img{
+width:100%;
+border-radius:12px;
+}
+
+a:link{color:#2a5298;}
+a:visited{color:#666;}
+a:hover{color:#1e3c72;}
+a:active{color:black;}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+<a href="index.html">Home</a>
+<a href="contacts.html">Contacts</a>
+<a href="hobbies.html">Hobbies</a>
+<a href="gallery.html">Gallery</a>
+</header>
+
+<div class="content">
+<h2>My Hobbies</h2>
+
+<div class="grid">
+<img src="bball.jpg" alt="Basketball">
+<img src="onlinegames.jpeg" alt="Online Games">
+<img src="motor.jpg" alt="Motorcycle">
+<img src="party.jpg" alt="Party">
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
